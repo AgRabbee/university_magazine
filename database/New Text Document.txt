@@ -1,0 +1,4 @@
+	$host='sql103.epizy.com';
+	$user='epiz_23814401';
+	$password='zMXQRrZnZzzznSf';
+	$database='epiz_23814401_ewsd_group_03';
