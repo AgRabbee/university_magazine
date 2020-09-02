@@ -7,6 +7,9 @@
 //	echo'Database Created Successfully <br />';
 //}
 
+$execution_time_limit = 60;
+set_time_limit($execution_time_limit);
+
 //connect to database
 
 $connect = database_connection();
