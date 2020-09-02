@@ -16,7 +16,7 @@ function database_connection($setup=false){
 		die("Connection Failed!!".$connection->connect_error);
 	}
 	if($connection){
-	    echo "successfull";
+        die("successfull");
     }
 //	return $connection;
 }
