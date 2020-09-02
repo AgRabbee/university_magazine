@@ -1,5 +1,5 @@
 <?php include_once('connect_db.php');?>
-<?php $connect = database_connection(true);
+<?php $connect = database_connection();
 
 $sql ="CREATE DATABASE ewsd-group-03";
 if($connect->query($sql)){
