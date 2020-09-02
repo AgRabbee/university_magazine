@@ -4,7 +4,7 @@ function database_connection($setup=false){
 	$user='anodynuytkbili';
 	$password='27b822e5f66dc85cb5af0334f92386433f7e005b091dcd4e160255ca8365aae6';
 	$database='de8etmmpigihbv';
-	$port = '5432';
+	$port='5432';
 	
 	if($setup == true){
 		$connection = new mysqli($host,$user,$password,$port);
