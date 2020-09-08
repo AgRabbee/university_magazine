@@ -1,9 +1,9 @@
 <?php
 function database_connection($setup=false){
-	$host='ec2-54-144-177-189.compute-1.amazonaws.com';
-	$user='dcodtoohxorubg';
-	$password='87fc80a49bb0df19bf4f2d425d8573d8f2b2171a33f41127af85b23bb4d13a54';
-	$database='d5e210eje2u12n';
+	$host='ec2-34-198-103-34.compute-1.amazonaws.com';
+	$user='ofcfdskyxeqsvd';
+	$password='1aca6300b395f99b613112cf0d0fcb308976864ae2f29035d70cfcb973fe0edc';
+	$database='dc6tfu4nropum9';
 	$port = '5432';
 	
 	if($setup == true){
